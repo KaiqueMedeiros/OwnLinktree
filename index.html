@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <title>Meus Links</title>
+</head>
+<body>
+
+    <div class="video-background">
+        <video id="background-video" autoplay muted loop playsinline>
+            <source src="./assets/video/background-video.mp4" type="video/mp4" preload="auto">
+            Seu navegador não suporta a exibição de vídeos.
+        </video>
+
+
+
+        <div class="profile-picture">
+            <img src="./assets/img/perfil.png" alt="Foto de perfil">
+        </div>
+    
+        <div class="title">
+            <h3>Kaique Medeiros | 23 years | Brasil</h3>
+            <p><i>Front-End Developer</i></p>
+        </div>
+    
+        <div class="description">
+            <p>Front-End Developer, aspiring to grow as a Web or Fullstack Developer. Currently studying Systems Analysis and Development.</p>
+        </div>
+    
+        <div class="social-media">
+    
+            <div class="button">
+                <a href="https://wa.me/11951740876" target=”_blank” animate__fadeIn class="whatsapp">
+                    WhatsApp
+                </a>
+            </div>
+    
+            <div class="button">
+                <a href="https://www.linkedin.com/in/kaique-medeiros-095b05215/" target="_blank" class="linkedin">
+                    Linkedin
+                </a>
+            </div>
+    
+            <div class="button">
+                <a href="https://kaiquemedeiros.netlify.app" target="_blank" class="portfolio">
+                    Portfólio
+                </a>
+            </div>
+    
+            <div class="button">
+                <a href="https://github.com/KaiqueMedeiros" target="_blank" class="github">
+                    Github
+                </a>
+            </div>
+    
+            <div class="button">
+                <a href="mailto:kaiquemedeiroscontato@gmail.com" target="_blank" class="email">
+                    Email
+                </a>
+            </div>
+    
+        </div>
+
+        <footer>
+            <div class="rodape">
+                <p>&copy; Desenvolvidor por Kaique Medeiros</p>
+            </div>    
+        </footer>
+
+    </div>
+      
+</body>
+
+<script>
+    const video = document.getElementById('background-video');
+    video.playbackRate = 0.8; // Reduz a velocidade do vídeo pela metade
+</script>
+
+</html>
