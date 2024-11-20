@@ -3,62 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link
+    href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+    rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
     <title>Meus Links</title>
 </head>
 <body>
 
-    <div class="video-background">
-        <video id="background-video" autoplay muted loop playsinline preload="auto">
-            <source src="./assets/video/background-video.mp4" type="video/mp4">
-            Seu navegador não suporta a exibição de vídeos.
-        </video>
+    <div class="trilho" id="trilho">
+        <div class="indicador" id="indicador">
 
-
+        </div>
+    </div>
 
         <div class="profile-picture">
             <img src="./assets/img/perfil.png" alt="Foto de perfil">
         </div>
     
         <div class="title">
-            <h3>Kaique Medeiros | 23 years | Brasil</h3>
-            <p><i>Front-End Developer</i></p>
+            <h2>Kaique Medeiros</h2>
+            <p><i class="subtitulo">Front-End Developer</i></p>
         </div>
     
         <div class="description">
-            <p>Front-End Developer, aspiring to grow as a Web or Fullstack Developer. Currently studying Systems Analysis and Development.</p>
+            <p>Aspiring to grow as a Web or Fullstack Developer. Currently studying Systems Analysis and Development.</p>
         </div>
     
         <div class="social-media">
     
             <div class="button">
-                <a href="https://wa.me/11951740876" target=”_blank” animate__fadeIn class="whatsapp">
-                    WhatsApp
+                <a href="https://wa.me/11951740876" target=”_blank” animate__fadeIn class="whats">
+                    <i class="fab fa-whatsapp"></i>  WhatsApp
                 </a>
             </div>
     
             <div class="button">
                 <a href="https://www.linkedin.com/in/kaique-medeiros-095b05215/" target="_blank" class="linkedin">
-                    Linkedin
+                    <i class="fab fa-linkedin"></i> Linkedin
                 </a>
             </div>
     
             <div class="button">
                 <a href="https://kaiquemedeiros.netlify.app" target="_blank" class="portfolio">
-                    Portfólio
+                    <i class="fa-solid fa-terminal"></i> Portfólio
                 </a>
             </div>
     
             <div class="button">
                 <a href="https://github.com/KaiqueMedeiros" target="_blank" class="github">
-                    Github
+                    <i class="fab fa-github"></i> Github
                 </a>
             </div>
     
             <div class="button">
                 <a href="mailto:kaiquemedeiroscontato@gmail.com" target="_blank" class="email">
-                    Email
+                    <i class="fas fa-envelope"></i> Email
                 </a>
             </div>
     
@@ -66,17 +68,11 @@
 
         <footer>
             <div class="rodape">
-                <p>&copy; Desenvolvidor por Kaique Medeiros</p>
+                <p>&copy; Developed by Kaique Medeiros</p>
             </div>    
         </footer>
-
-    </div>
-      
+        
+        <script src="script.js"></script>
 </body>
-
-<script>
-    const video = document.getElementById('background-video');
-    video.playbackRate = 0.8; // Reduz a velocidade do vídeo pela metade
-</script>
 
 </html>
