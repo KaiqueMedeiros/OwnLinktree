@@ -1,4 +1,4 @@
-# Linktree Freelance - Projeto de Desenvolvimento
+# Linktree Pessoal - Projeto de Desenvolvimento
 # https://kaiquemedeiroslinks.netlify.app
 
 O objetivo deste projeto foi construir uma interface simples e responsiva que permitisse ao usuário adicionar links para várias plataformas (como Instagram, LinkedIn, Twitter, GitHub, etc.) em um único local, tornando fácil o acesso às suas redes e conteúdos mais importantes.
